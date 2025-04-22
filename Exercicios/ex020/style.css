@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: rgb(4, 196, 4);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(1, 70, 1);
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+a:active {
+color: red;
+
+}
+a::after {
+    content: "☛ [link]";
+    color: rgb(100, 100, 49);
+}
+a::before {
+    content:"➫";
+}
+.especial:hover {
+    color: rgb(255, 255, 255);
+
+
+}
+.especial::after{
+    color: yellow;
+    
+        content: "☛ [link] Certificado!!";
+    
+}
+.especial {
+    background-color: black;
+    color:greenyellow;
+}
+
+h1#principal {
+    text-align: center;
+    color: rgb(13, 240, 13);
+    background-color: rgb(11, 161, 86);
+    font-family: "Kaushan Script", cursive;
+  font-weight: 400px;
+  font-style: normal;
+
+}

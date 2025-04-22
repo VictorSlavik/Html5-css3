@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Flor";
+    src: url(Fonts/Flora.otf) format("opentype");
+
+
+}
+:root {
+    --cor01:#265902;
+    --cor02:#84bf04;
+    --cor03:#0d1d01c4;
+    --cor04:#F20505;
+    --cor05:#590202;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque:"Flor";
+
+
+
+
+
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body {
+    background-image:linear-gradient(to right, #265902,#84BF04) ;
+
+
+}
+main{
+    background-color: white;
+    max-width: 1050px;
+    
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #0d1d01c4;
+ 
+
+}
+main img {
+    
+    min-width: 450px;
+    display: block;
+    margin:auto;
+    
+}
+main img#logo {
+    width: 400px;
+}
+main h1 {
+    font-family: var(--font-destaque);
+    font-size: 3em;
+}
+h1 {
+    color: #F20505;
+    text-align: center;
+    text-shadow: 2px 2px 2px #590202;
+
+
+}
+
+h2  {
+    text-align: center;
+color: #590202;
+
+}
+p{
+    text-align: justify;
+}
