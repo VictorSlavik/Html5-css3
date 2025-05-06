@@ -4,4 +4,4 @@
 
  Estou apredendo a criar sites e agora vou gerenciar meus repositorio 
 
- <a href="C:\Users\Victo\OneDrive\Documentos\Estudos\Html5-css3\Exercicios\ex014">pag 14</a>
+ <a href="https://victorslavik.github.io/Html5-css3/Exercicios\ex017\fonte01.html">pag 14</a>
